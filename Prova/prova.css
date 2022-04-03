@@ -1,0 +1,77 @@
+.corpo{
+    background-color: gray;
+    padding-left: 18%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.folha{
+    height: 1077px;
+    width: 850px;
+    background-color: white;
+    padding-top: 80px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+#nome{
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.form{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#campo_text{
+    resize: none;
+    font-size: 17px;
+    text-align: justify;
+
+    border: 2px solid green;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.options{
+    display: block;
+    margin-top: 15px;
+}
+
+#botao{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+#botao:hover{
+    background-color: green;
+    color: white;
+    transition: 200ms;
+}
+
+#resu{
+    margin-left: 60px;
+    border: 2px dotted green;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
